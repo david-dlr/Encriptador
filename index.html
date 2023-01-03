@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="C:\Users\david\Desktop\encriptador\encriptador.css">
+    <script type="text/javascript" src="C:\Users\david\Desktop\encriptador\encriptador.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+    <title>ENCRIPTADOR DLR</title>
+
+</head>
+
+<body class="todo">
+    
+    <header>
+
+
+        <div class="logo">
+            <img src="C:\Users\david\Desktop\encriptador\imagenes/logo4.png" class="logotipo">
+        </div>
+            <nav class="navbar">
+                <ul class="barra">
+                    <li class="botones"><a href="#" class="encriptador">ENCRIPTADOR</a></li>
+                    <li class="botones"><a href="https://github.com/david-dlr" class="github" target="_blank">GITHUB</a></li>
+                    <li class="botones"><a href="https://www.linkedin.com/in/david-dlr/" class="linkedin" target="_blank">LINKEDIN</a></li>
+                </ul>
+            </nav>
+    </header> 
+    
+    <main class="cuerpo">
+
+        <div class="texto">
+            <input type="text" id="msj" class="mensaje" placeholder="Texto a encriptar">
+            <textarea rows="2" cols="11" placeholder="<---" id="result" class="resultado"></textarea>
+
+        <div class="botonesen">
+            <button type="button" id="ecr" class="encriptar" onclick="encriptar()">ENCRIPTAR</button>
+            <button type="button" id="desecr" class="desencriptar" onclick=desencriptar()>DESENCRIPTAR</button>
+        </div>
+
+        <div class="imagen">
+            <img src="C:\Users\david\Desktop\encriptador\imagenes/robot.png" class="robot" id="roboto">            
+        </div>
+
+        <div class="botonCopiar">
+
+        <button type="button" id="copiar" class="copy" onclick="copiar()">COPIAR</button>
+          
+    </div>
+
+    <div class="advert">
+        <p class="advertencia"><i class="ri-error-warning-line"> Sin acentos ni mayusculas</i></p>
+    </div>
+       
+
+    </main>
+    
+      
+</body>
+
+</html>
