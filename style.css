@@ -8,7 +8,6 @@
 .todo{
 
     width: 100%;
-    
 }
 
 header{
@@ -27,7 +26,6 @@ header{
     width: auto;
     cursor: pointer;
     transition: .2s;
-   
 }
 
 .logo .logotipo:hover{
@@ -98,21 +96,17 @@ header{
 }
 
 .cuerpo{
-
     width: 100%;
     padding: 50px 200px;
 }
 
 .imagen .robot{
-
     width: auto;
     height: 30%;
     position: absolute;
     display: inline-block;
     right: 150px;
     top: 280px;
-    
-    
 }
 
 .texto .mensaje{
@@ -203,14 +197,12 @@ header{
 }
 
 .cuerpo .advertencia i {
-
     position: relative;
     top: -40px;
     left: 100px;
     display: inline-block;
     font-weight: bold;
     font-family: 'Courier New';
-
 }
 
 @media screen and (max-width: 900px){
@@ -232,7 +224,6 @@ header{
             box-sizing: border-box;
             margin: 0;
             padding: 20px 0px;
-            
         }
 
         .copy{
@@ -253,7 +244,6 @@ header{
             position: relative;
             font-size: 20px;
             margin-bottom: 10px;
-            
         }
 
         .botonesen{
@@ -261,13 +251,11 @@ header{
             bottom: 100px;
             left: -190px;
             align-items: center;
-            
         }
 
         .texto .resultado {
             width: 100%;
-            display: inline-block;
-            
+            display: inline-block; 
             left: 0;
             margin: 0;
             padding-right: 0px;
@@ -276,7 +264,6 @@ header{
             position: relative;
             bottom: -200px;
             outline: none;
-            
         }
 
         .imagen .robot{
@@ -288,26 +275,9 @@ header{
             margin: 0%;
         }
 
-        .cuerpo .advertencia i{
-            
+        .cuerpo .advertencia i{   
             display: none;
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-       
-
-
-
+        }    
 
 }
 
